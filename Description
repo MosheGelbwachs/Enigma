@@ -1,0 +1,17 @@
+The Enigma Machine was used by the Germans during world war II to encipher/decipher secret messages.
+
+The cipher worked in multiple stages. When a key would be pressed an electrical signal is sent down a wire corresponding
+to that letter. The wire first goes through the steckerboard (plugboard) where 10 pairs of letters (i.e. the wires
+corresponding to those letters) are swapped. The wires then go into the 1st rotor where it is scrambles with all the
+other wires in a prespecified way which is unique to this specific rotor. It then goes through two more rotors, each
+with their own unique scramble. The signal then enters the reflectors where the 26 wires are grouped in to 13 pairs.
+Each wire is connected to its pair. The signal then travel on the other wire in the reverse direction, from the
+reflector, through 3 rotors and through the steckerboard where it powers a bulb corresponding to the enciphered letter.
+
+Each time a key is pressed, the first rotor is also rotated by 1 place. For every full rotation of a rotor (26
+keystrokes), the subsequent rotor is rotated once (or twice for some rotors) sometime during the rotation. Thus with
+each letter of the message there is a different cipher.
+
+Each day there are a different set of 3 (out of 5 or 8) rotors, with different places in the rotation which knock (cause
+to rotate) the next rotor, and a different set of 10 pairs of letters for the steckerboard. Additionally, for each
+message a different starting position for the rotors are selected.
